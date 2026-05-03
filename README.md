@@ -24,3 +24,5 @@ Here is why automating this pipeline is an absolute massive win for the team:
 3.  **The Brain:** Deploy the provided `user-onboarding.ps1` script as a PowerShell runbook. Update your `$Domain` and match your `$DepartmentGroupMap` to your actual Entra ID groups.
 4.  **The Orchestrator:** Connect your Microsoft Form to a Consumption Logic App. Map the form answers directly into the Runbook, and set up the final step to securely email the generated TAP code straight to the hiring manager. *See screenshots for reference!*
 5.  **Hit Go:** Submit a test form and watch the cloud do the heavy lifting! 🚀
+
+<img width="1277" height="604" alt="Confirmation Email with TAP Code" src="https://github.com/user-attachments/assets/0f22959a-881a-4bb3-9d32-241c1a42a7eb" />
